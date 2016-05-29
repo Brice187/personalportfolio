@@ -7,11 +7,16 @@ h1 {
     text-color: grey;
     font-family: Lobster;
 }
+
 .header-box {
+    position:fixed;
+    top:0px;
+    width: 100%;
     background-color: #cceeee;
-    padding: 20px;
+    padding: 15px;
     margin: -15px;
     border-radius: 15%;
+    z-index: +1;
 }
 .about-box {
     font-family: Calibri;
@@ -22,7 +27,15 @@ h1 {
     margin: 80px;
     border-radius: 2em;
 }
-
+.about-box:hover {
+    font-family: Calibri;
+    font-size: 28px;
+    color: #226666;
+    background-color: #88eeee;
+    padding: 30px;
+    margin: 80px;
+    border-radius: 2em;
+}
 .portfolio-box {
     font-family: Calibri;
     font-size: 28px;
@@ -33,11 +46,30 @@ h1 {
     margin-top: -5px;
     border-radius: 2em;
 }
+.portfolio-box:hover {
+    font-family: Calibri;
+    font-size: 28px;
+    color: #226666;
+    background-color: #66cccc;
+    padding: 30px;
+    margin: 80px;
+    margin-top: -5px;
+    border-radius: 2em;
+}
 .contact-box {
     font-family: Calibri;
     font-size: 28px;
     color: #226666;
     background-color: #88eeee;
+    padding: 35px;
+    margin: 80px;
+    border-radius: 2em;
+}
+.contact-box:hover {
+    font-family: Calibri;
+    font-size: 28px;
+    color: #226666;
+    background-color: #99ffff;
     padding: 35px;
     margin: 80px;
     border-radius: 2em;
